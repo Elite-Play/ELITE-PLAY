@@ -1,0 +1,61 @@
+# ELITE PLAY - editor seguro do catalogo via Pages CMS
+# O catalogo publico continua no arquivo elite-play-catalogo.json
+media:
+  input: imagens
+  output: /ELITE-PLAY/imagens
+
+content:
+  - name: catalogo-elite-play
+    label: Catalogo ELITE PLAY
+    type: file
+    path: elite-play-catalogo.json
+    format: json
+    fields:
+      - name: format
+        label: Formato do catalogo
+        type: string
+        readonly: true
+      - name: exportedAt
+        label: Data da ultima exportacao
+        type: string
+        readonly: true
+      - name: products
+        label: Produtos da loja
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{name} - R$ {price}"
+        fields:
+          - name: id
+            label: Codigo unico do produto
+            type: string
+            required: true
+            description: "Nao altere o codigo de produtos existentes. Para novos produtos, crie um codigo diferente dos demais."
+          - name: name
+            label: Nome do produto
+            type: string
+            required: true
+          - name: category
+            label: Categoria
+            type: string
+            required: true
+          - name: price
+            label: Preco em reais
+            type: number
+            required: true
+            options:
+              min: 0
+          - name: image
+            label: URL da imagem (HTTPS)
+            type: string
+          - name: icon
+            label: Icone ou emoji
+            type: string
+          - name: description
+            label: Descricao
+            type: text
+          - name: featured
+            label: Mostrar em Novidades
+            type: boolean
