@@ -43,7 +43,7 @@ content:
             required: true
                - name: price
         label: Preco em reais
-        type: number
+        type: string
         required: true
         options:
           min: 0
