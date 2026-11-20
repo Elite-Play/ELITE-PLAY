@@ -46,7 +46,7 @@ content:
             type: number
             required: true
             options:
-              min: 0
+              min: 0.99
           - name: image
             label: URL da imagem (HTTPS)
             type: string
