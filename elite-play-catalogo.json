@@ -6,8 +6,7 @@
       "id": "p1794444811257-nn7dw",
       "name": "Monitor 4K Ultra HD",
       "category": "Setup",
-      "price": 1499.9,
-      "image": "",
+      "price": 1494.99,
       "icon": "🎮",
       "description": "🖥️ Monitor 4K Ultra HD\n\nEleve sua experiência com imagens em alta definição! Com resolução 4K Ultra HD, oferece detalhes impressionantes e excelente nitidez para jogos, filmes e produtividade. Ideal para transformar seu setup!\n\n🔥 ELITE PLAY — LEVEL UP YOUR GAME!",
       "featured": true
@@ -16,18 +15,16 @@
       "id": "p1",
       "name": "Game Stick 4K Retrô",
       "category": "Consoles",
-      "price": 149.9,
-      "image": "",
+      "price": 149.99,
       "icon": "🎮",
-      "description": "Produto demonstrativo. Verificar características, preço, imagens e licenças antes da venda.",
+      "description": "Produto demonstrativo. Verificar características, preço, imagens e licenças antes da venda.Catálogo atualizado pela ELITE PLAY 5.0.",
       "featured": false
     },
     {
       "id": "p2",
       "name": "Suporte Gamer RGB",
       "category": "Acessórios",
-      "price": 89.9,
-      "image": "",
+      "price": 89.99,
       "icon": "🎧",
       "description": "Produto fictício para demonstração.",
       "featured": false
@@ -36,8 +33,7 @@
       "id": "p3",
       "name": "Mouse Gamer RGB",
       "category": "Periféricos",
-      "price": 129.9,
-      "image": "",
+      "price": 128.99,
       "icon": "🖱️",
       "description": "Produto fictício para demonstração.",
       "featured": false
@@ -46,8 +42,7 @@
       "id": "p4",
       "name": "Teclado Mecânico",
       "category": "Periféricos",
-      "price": 249.9,
-      "image": "",
+      "price": 249.99,
       "icon": "⌨️",
       "description": "Produto fictício para demonstração.",
       "featured": false
